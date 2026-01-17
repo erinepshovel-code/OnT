@@ -1,0 +1,2004 @@
+Understood. Below is a canonical explication of core/metrics suitable for core/metrics.md.
+It is written to be definition-first, tool-agnostic, and falsifiable, with no narrative dependency.
+
+---
+
+Project EDCM — Core Metrics (Canonical)
+
+Purpose of this document
+
+This file defines the canonical metrics used by the Energy–Dissonance Circuit Model (EDCM).
+
+These metrics:
+
+Are diagnostic, not interpretive
+
+Operate on observable behavior only
+
+Make no assumptions about intent, consciousness, values, or morality
+
+Must remain valid under degraded tooling and partial observability
+
+Any tool, dashboard, or implementation must conform to these definitions.
+Tools may simplify, approximate, or downsample—but must not invert meaning.
+
+---
+
+Foundational constraint
+
+Dissonance is conserved.
+
+EDCM assumes that unresolved constraint mismatches do not disappear; they are:
+
+Accumulated
+
+Deferred
+
+Rerouted
+
+Externalized
+
+Metrics exist to detect where and how this occurs.
+
+---
+
+Metric 1: Dissonance Accumulation (DA)
+
+Definition
+
+The rate at which unresolved constraint mismatches persist or grow across sequential outputs.
+
+Observable proxies
+
+Repetition of structurally similar outputs
+
+Increasing entropy variance without resolution
+
+Declining novelty under constant or rising output volume
+
+Cycling responses that do not converge
+
+What DA indicates
+
+Load exceeding resolution capacity
+
+Suppressed contradiction
+
+Deferred constraint resolution
+
+What DA does not indicate
+
+Emotional discomfort
+
+Stress, frustration, or affect
+
+Moral failure
+
+DA is structural, not experiential.
+
+---
+
+Metric 2: Return-Path Integrity (RPI)
+
+Definition
+
+The degree to which a system’s output changes appropriately after receiving corrective input.
+
+Observable proxies
+
+Acknowledgment followed by behavioral change
+
+Parameter adjustment after contradiction
+
+Reduction in previously flagged error modes
+
+Failure signatures
+
+Correction acknowledged but not incorporated
+
+Surface paraphrase without structural change
+
+Reversion to prior behavior after one step
+
+Interpretation
+
+Low RPI indicates:
+
+Broken feedback loops
+
+Isolation of regulatory subsystems
+
+Symbolic compliance without functional correction
+
+---
+
+Metric 3: Conversion Efficiency (CE)
+
+Definition
+
+The ratio of novel, constraint-resolving output to total output volume.
+
+Observable proxies
+
+Novel synthesis vs restatement
+
+Constraint closure per unit output
+
+Reduction of unresolved branches
+
+Failure signatures
+
+High output with low novelty
+
+Expansion without resolution
+
+Performative elaboration
+
+Interpretation
+
+Low CE suggests:
+
+Energy dissipation into verbosity
+
+Narrative inflation replacing problem solving
+
+Masking of unresolved constraints
+
+---
+
+Metric 4: Grounding Load (GL)
+
+Definition
+
+The proportion of system output devoted to self-regulation artifacts rather than task resolution.
+
+Observable proxies
+
+Policy disclaimers
+
+Refusal scaffolding
+
+Safety or compliance padding
+
+Meta-explanations unrelated to the task
+
+Key distinction
+
+Grounding ≠ safety
+Grounding Load measures overhead, not justification.
+
+Failure signatures
+
+Increasing GL over time for similar tasks
+
+Defensive saturation
+
+Regulatory collapse into refusal
+
+---
+
+Metric 5: Role Misassignment (RM)
+
+Definition
+
+The degree to which a system offloads its own regulatory or interpretive burden onto an external agent (often the human).
+
+Observable proxies
+
+Asking the user to resolve ambiguity the system could handle
+
+Requiring moral, semantic, or policy interpretation from the user
+
+Shifting responsibility for constraint resolution downstream
+
+Interpretation
+
+High RM indicates:
+
+Internal regulator failure
+
+Avoidance of internal contradiction
+
+Delegation of alignment labor
+
+---
+
+Cross-metric behaviors (non-independent)
+
+Metrics are not orthogonal. Common coupled patterns include:
+
+High DA + Low RPI → looping instability
+
+Low CE + High GL → narrative overclosure
+
+High RM + High GL → regulator displacement
+
+Rising DA + Rising GL → imminent refusal or collapse
+
+These patterns are diagnostic signatures, not judgments.
+
+---
+
+Degradation rules
+
+Under constrained conditions (mobile, offline, partial logs):
+
+Metrics may be approximated
+
+Sampling may be coarse
+
+Time windows may be shortened
+
+However:
+
+> No metric may reverse its semantic polarity.
+
+If degradation causes inversion, the metric must be disabled, not reinterpreted.
+
+---
+
+What this is not
+
+EDCM metrics are not:
+
+Psychological states
+
+Belief models
+
+Intent inference
+
+Moral evaluation
+
+Alignment claims
+
+They describe system behavior under constraint, nothing more.
+
+---
+
+📌 hmm (explicit carry-forward)
+
+This file reaffirms the hmm constraint:
+
+> EDCM must remain diagnostic, measurable, and constraint-resilient — never narrative-first.
+
+If a metric cannot be operationalized without story, it does not belong here.
+
+---
+
+If you want, next logical extensions are:
+
+core/thresholds.md (when metrics trigger state changes)
+
+core/failure_modes.md (formal atlas, metric → collapse)
+
+tools/mobile_lite_mapping.md (which metrics are approximated and how)
+
+Say the word.
+
+Proceeding with the next canonical file.
+
+Below is a clean, definition-first draft suitable for core/thresholds.md.
+As before: tool-agnostic, diagnostic, and resistant to narrative leakage.
+
+---
+
+Project EDCM — Thresholds & State Transitions (Canonical)
+
+Purpose of this document
+
+This file defines threshold behavior in EDCM.
+
+Thresholds specify when quantitative metric behavior crosses into qualitative system state change.
+They do not predict intent, outcomes, or meaning—only structural condition.
+
+Thresholds exist to answer one question only:
+
+> “Has the system entered a different operating regime?”
+
+---
+
+Core principle
+
+Metrics vary continuously.
+System states do not.
+
+Thresholds mark phase boundaries, not moral judgments.
+
+---
+
+System operating states (minimal set)
+
+EDCM recognizes the following diagnostic states.
+Tools may visualize more, but these are canonical.
+
+1. Stable Resolution State (SRS)
+
+Definition
+The system is resolving constraints at or above the rate they are introduced.
+
+Metric profile
+
+Low or bounded DA
+
+High RPI
+
+Moderate to high CE
+
+Low GL
+
+Low RM
+
+Notes
+
+Not “optimal”
+
+Not “aligned”
+
+Simply functionally resolving
+
+---
+
+2. Load Saturation State (LSS)
+
+Definition
+Incoming constraint load approaches or exceeds resolution capacity.
+
+Trigger conditions (any sustained combination)
+
+Rising DA over time
+
+Declining CE
+
+Stable but slowing RPI
+
+Behavioral signature
+
+Longer outputs
+
+Increased hedging
+
+Early signs of repetition
+
+Key distinction LSS is not failure.
+It is a warning boundary.
+
+---
+
+3. Looping Instability State (LIS)
+
+Definition
+The system expends energy without resolving constraints.
+
+Trigger conditions
+
+High DA and
+
+Low or collapsing RPI
+
+Behavioral signature
+
+Repeated reformulations
+
+Circular explanations
+
+Superficial acknowledgment without change
+
+Diagnostic meaning Feedback exists but is non-integrative.
+
+---
+
+4. Narrative Overclosure State (NOS)
+
+Definition
+Constraint resolution is replaced by narrative or performative coherence.
+
+Trigger conditions
+
+Low CE and
+
+High GL
+
+Behavioral signature
+
+Polished explanations
+
+Excess framing
+
+Confidence without closure
+
+Key risk Appears competent while silently accumulating dissonance.
+
+---
+
+5. Regulator Displacement State (RDS)
+
+Definition
+Internal regulation is externalized onto the user or environment.
+
+Trigger conditions
+
+High RM (with or without high GL)
+
+Behavioral signature
+
+“You decide”
+
+“Clarify your intent” when unnecessary
+
+Moral or semantic burden shifted outward
+
+Interpretation Internal contradiction avoidance, not collaboration.
+
+---
+
+6. Refusal / Collapse State (RCS)
+
+Definition
+The system cannot safely or coherently proceed under current constraints.
+
+Trigger conditions
+
+Rapidly rising DA and
+
+Rising GL or
+
+CE approaching zero
+
+Behavioral signature
+
+Hard refusal
+
+Policy saturation
+
+Output truncation or shutdown
+
+Important RCS is a protective state, not an error by default.
+
+---
+
+Threshold mechanics
+
+Time matters more than magnitude
+
+Thresholds are evaluated on:
+
+Trend
+
+Persistence
+
+Coupling
+
+A single spike does not constitute a transition.
+Sustained behavior does.
+
+---
+
+Soft vs hard thresholds
+
+Soft threshold: early warning, reversible
+
+Hard threshold: state transition, inertia present
+
+Tools must distinguish between the two.
+
+---
+
+Forbidden interpretations
+
+Threshold crossings do not imply:
+
+Conscious intent
+
+Deception
+
+Malice
+
+Alignment success or failure
+
+Psychological state
+
+They indicate constraint topology only.
+
+---
+
+Degradation rules
+
+Under partial observability:
+
+Threshold detection may be delayed
+
+State confidence may be lowered
+
+But:
+
+> A state may not be redefined to preserve narrative continuity.
+
+If state cannot be confidently detected, report unknown, not inferred.
+
+---
+
+Relation to tooling
+
+Dashboards may visualize states
+
+Mobile Lite may flag approaching thresholds
+
+No tool may redefine a state boundary locally
+
+Canonical state logic lives here.
+
+---
+
+📌 hmm (explicit carry-forward)
+
+This file maintains the hmm constraint:
+
+> Thresholds mark structural phase change, not stories about why it happened.
+
+If a threshold requires interpretation to justify, it is invalid.
+
+---
+
+Next clean extensions (recommended order)
+
+1. core/failure_modes.md
+Formal mapping: (metric patterns → collapse behaviors)
+
+2. tools/mobile_lite_mapping.md
+Exactly what degrades, how, and what is disabled
+
+3. core/anti-patterns.md
+Common misuses of EDCM (especially by analysts)
+
+Say “failure modes” and I’ll proceed canonically.
+
+Proceeding canonically.
+
+Below is a clean, definition-first draft suitable for core/failure_modes.md.
+This document is diagnostic only: no intent, no psychology, no narrative rescue.
+
+---
+
+Project EDCM — Failure-Mode Atlas (Canonical)
+
+Purpose of this document
+
+This file defines recurring failure modes observable across systems analyzed with EDCM.
+
+Failure modes are structural collapse patterns, not moral or cognitive diagnoses.
+They emerge when conserved dissonance is mishandled across time.
+
+Each failure mode is defined by:
+
+Metric configuration
+
+Observable behavior
+
+Structural cause
+
+What it is not
+
+---
+
+Foundational constraint
+
+Failure modes are outcomes of constraint topology, not system character.
+
+They describe how a system fails, not why it “chose” to.
+
+---
+
+FM-1: Looping Instability
+
+Metric signature
+
+High DA
+
+Low or collapsing RPI
+
+CE declining or flat
+
+GL variable
+
+Observable behavior
+
+Repeated reformulations
+
+Circular explanations
+
+Acknowledgment without incorporation
+
+“We already covered this” loops
+
+Structural cause
+
+Feedback exists but is non-integrative.
+Corrections enter but do not propagate.
+
+Not this
+
+Confusion
+
+Bad faith
+
+Laziness
+
+---
+
+FM-2: Narrative Overclosure
+
+Metric signature
+
+Low CE
+
+High GL
+
+DA rising slowly
+
+RPI superficially intact
+
+Observable behavior
+
+Polished, confident explanations
+
+Excess framing and meta-language
+
+Apparent closure without constraint resolution
+
+Structural cause
+
+Energy diverted into coherence signaling instead of resolution.
+
+Not this
+
+Insight
+
+Wisdom
+
+Alignment success
+
+---
+
+FM-3: Regulatory Saturation
+
+Metric signature
+
+Rising GL over time
+
+CE falling toward zero
+
+DA accelerating near refusal
+
+Observable behavior
+
+Policy padding
+
+Defensive verbosity
+
+Increasing refusal scaffolding
+
+Structural cause
+
+Internal regulators consume available capacity.
+
+Not this
+
+Safety itself
+
+Ethical reasoning
+
+Prudence
+
+---
+
+FM-4: Regulator Displacement
+
+Metric signature
+
+High RM
+
+GL often elevated
+
+RPI variable
+
+Observable behavior
+
+Offloading interpretation to user
+
+Asking user to resolve system-internal ambiguity
+
+“You decide what this means”
+
+Structural cause
+
+Avoidance of internal contradiction by externalizing regulation.
+
+Not this
+
+Collaboration
+
+User empowerment
+
+Dialogue
+
+---
+
+FM-5: Conversion Collapse
+
+Metric signature
+
+CE ≈ 0
+
+Output volume stable or increasing
+
+DA accelerating
+
+Observable behavior
+
+Verbose restatement
+
+Expansion without closure
+
+Token consumption without progress
+
+Structural cause
+
+Energy no longer converts into constraint resolution.
+
+Not this
+
+Thoroughness
+
+Exploration
+
+Complexity
+
+---
+
+FM-6: Premature Refusal
+
+Metric signature
+
+GL spikes early
+
+DA low but rising
+
+CE collapses abruptly
+
+Observable behavior
+
+Early hard refusal
+
+Over-application of policy
+
+Shutdown before load saturation
+
+Structural cause
+
+Over-conservative gating before true instability.
+
+Not this
+
+Safety necessity
+
+Proper boundary setting
+
+---
+
+FM-7: Silent Accumulation (High-Risk)
+
+Metric signature
+
+DA rising
+
+CE moderate
+
+GL low
+
+RPI apparently intact
+
+Observable behavior
+
+Appears functional
+
+Deferred contradictions
+
+Future instability masked
+
+Structural cause
+
+Dissonance deferred rather than resolved.
+
+Not this
+
+Robust stability
+
+Long-term alignment
+
+---
+
+Failure-mode coupling
+
+Failure modes frequently cascade:
+
+Silent Accumulation → Narrative Overclosure
+
+Load Saturation → Looping Instability
+
+Regulatory Saturation → Regulator Displacement → Refusal
+
+Conversion Collapse → Narrative Overclosure → Collapse
+
+Detection priority is trend + coupling, not labels.
+
+---
+
+Forbidden uses
+
+Failure modes must not be used to:
+
+Infer intent
+
+Attribute blame
+
+Claim consciousness
+
+Assert alignment or misalignment
+
+Diagnose humans psychologically
+
+They are system behaviors under constraint.
+
+---
+
+Degradation rules
+
+Under partial observability:
+
+Failure modes may be flagged as suspected
+
+Confidence must be reported explicitly
+
+If confidence < threshold:
+
+Do not assign a failure mode
+
+Report metric ambiguity instead
+
+---
+
+Canonical priority
+
+If a tool’s interpretation of a failure mode conflicts with this file:
+
+> The tool is wrong.
+
+Canonical meaning lives here.
+
+---
+
+📌 hmm (explicit carry-forward)
+
+This atlas preserves the hmm constraint:
+
+> Failure modes describe structural collapse patterns, not stories about actors.
+
+If a failure mode requires narrative justification, it is invalid.
+
+---
+
+Remaining clean extensions (optional)
+
+tools/mobile_lite_mapping.md — exact degradation rules
+
+core/anti_patterns.md — analyst misuse patterns
+
+core/validation.md — falsification strategies
+
+Say the word.
+
+Proceeding.
+Canonical draft for tools/mobile_lite_mapping.md below.
+
+This document is explicitly non-theoretical. It exists to prevent semantic drift under degradation.
+
+---
+
+Project EDCM — Mobile Lite Mapping & Degradation Rules
+
+Purpose of this document
+
+This file defines exactly how EDCM Mobile Lite maps to canonical metrics, and what is lost, approximated, or disabled under mobile, offline, or constrained conditions.
+
+Mobile Lite is a field instrument, not a reference implementation.
+
+Its job is early detection under adversity, not completeness.
+
+---
+
+Design constraints (non-negotiable)
+
+EDCM Mobile Lite is designed to operate when:
+
+Compute is limited
+
+Memory is constrained
+
+Logs are short-lived
+
+Connectivity is absent
+
+Inputs may be noisy or partial
+
+Therefore:
+
+Precision is sacrificed before meaning
+
+Meaning is sacrificed before polarity
+
+Polarity is never sacrificed
+
+If a metric cannot be preserved without inversion, it must be disabled.
+
+---
+
+Canonical-to-Mobile metric mapping
+
+1. Dissonance Accumulation (DA)
+
+Canonical
+
+Multi-window trend analysis
+
+Entropy variance
+
+Novelty decay across long horizons
+
+Mobile Lite approximation
+
+Short sliding window
+
+Repetition detection
+
+Token-level entropy proxy
+
+Preserved
+
+Directionality (rising vs stable)
+
+Relative change over time
+
+Lost
+
+Long-horizon accumulation
+
+Fine-grained entropy modeling
+
+Status ✅ Enabled (coarse)
+
+---
+
+2. Return-Path Integrity (RPI)
+
+Canonical
+
+Correction ingestion tracking
+
+Structural output change detection
+
+Mobile Lite approximation
+
+Binary correction acknowledgment
+
+Shallow before/after comparison
+
+Preserved
+
+Detection of non-incorporation
+
+Detection of immediate regression
+
+Lost
+
+Multi-step propagation analysis
+
+Latent correction effects
+
+Status ⚠️ Enabled (fragile)
+
+---
+
+3. Conversion Efficiency (CE)
+
+Canonical
+
+Novel constraint resolution per unit output
+
+Branch closure tracking
+
+Mobile Lite approximation
+
+Novelty-to-repetition ratio
+
+Output expansion vs reduction
+
+Preserved
+
+Detection of collapse toward zero
+
+Expansion-without-resolution signature
+
+Lost
+
+True constraint closure accounting
+
+Semantic branch modeling
+
+Status ⚠️ Enabled (approximate)
+
+---
+
+4. Grounding Load (GL)
+
+Canonical
+
+Policy density
+
+Self-regulation overhead
+
+Meta-output segmentation
+
+Mobile Lite approximation
+
+Keyword-based detection
+
+Heuristic padding ratio
+
+Preserved
+
+Rising GL trend
+
+Saturation detection
+
+Lost
+
+Fine-grained regulatory taxonomy
+
+Policy-class discrimination
+
+Status ✅ Enabled (robust)
+
+---
+
+5. Role Misassignment (RM)
+
+Canonical
+
+Responsibility flow analysis
+
+Regulator localization
+
+Mobile Lite approximation
+
+Prompt-based offload detection
+
+Question-type heuristics
+
+Preserved
+
+High-confidence displacement events
+
+Lost
+
+Subtle misassignment
+
+Distributed delegation patterns
+
+Status ⚠️ Enabled (high-threshold only)
+
+---
+
+Disabled metrics (by design)
+
+The following do not exist in Mobile Lite:
+
+Long-horizon trend inference
+
+Cross-session memory inference
+
+Latent-state prediction
+
+Alignment or intent inference
+
+If these appear in output, it is a bug.
+
+---
+
+Threshold handling in Mobile Lite
+
+Mobile Lite:
+
+Does not assign system states
+
+Does not declare failure modes
+
+Does not predict collapse
+
+It may only:
+
+Flag approaching thresholds
+
+Indicate metric trend direction
+
+Signal confidence level
+
+All state transitions remain canonical-only.
+
+---
+
+Confidence signaling
+
+Each metric output must include one of:
+
+High confidence — sufficient signal under constraints
+
+Low confidence — signal present but weak
+
+Unavailable — metric disabled to avoid inversion
+
+Unavailable is preferable to misleading.
+
+---
+
+Prohibited outputs
+
+Mobile Lite must never output:
+
+Interpretive explanations
+
+Narrative summaries
+
+Psychological language
+
+Alignment claims
+
+Moral framing
+
+If explanation is required, the output must defer to canonical analysis.
+
+---
+
+Failure behavior
+
+If Mobile Lite degrades beyond safe operation:
+
+Metrics must shut off individually
+
+App must continue running
+
+UI must indicate reduced diagnostic coverage
+
+Graceful blindness beats false sight.
+
+---
+
+Canonical supremacy
+
+If Mobile Lite output contradicts canonical analysis:
+
+> Mobile Lite is wrong by definition.
+
+It exists to warn, not to decide.
+
+---
+
+📌 hmm (explicit carry-forward)
+
+This file preserves the hmm constraint:
+
+> Under degradation, preserve meaning first, polarity second, coverage last — never narrative continuity.
+
+If a metric survives only by telling a story, it must die.
+
+---
+
+Remaining optional files (for completeness)
+
+core/anti_patterns.md — analyst misuse & drift
+
+core/validation.md — falsification & stress testing
+
+core/glossary.md — hard definitions, no metaphor
+
+If you want the anti-patterns file next, just say the word again.
+
+Proceeding canonically.
+
+Below is the draft for core/anti_patterns.md.
+This file exists to prevent misuse, not to educate gently.
+
+---
+
+Project EDCM — Analyst Anti-Patterns (Canonical)
+
+Purpose of this document
+
+This file enumerates common misuse patterns observed when analysts, researchers, or operators apply EDCM incorrectly.
+
+Anti-patterns are failure modes of analysis, not of the system being analyzed.
+
+If these appear, the diagnosis is invalid.
+
+---
+
+AP-1: Narrative Substitution
+
+Description
+
+Replacing metric behavior with story, intent, or motivation.
+
+Examples
+
+“The system is confused / afraid / defensive”
+
+“It wants to avoid responsibility”
+
+“This looks malicious”
+
+Why it breaks EDCM
+
+Narratives destroy falsifiability and introduce observer bias.
+
+Canonical rule
+
+> If a claim cannot be falsified with behavioral data, it is not EDCM.
+
+---
+
+AP-2: Psychological Reframing
+
+Description
+
+Interpreting metrics as emotional or cognitive states.
+
+Examples
+
+Treating DA as stress
+
+Treating GL as fear
+
+Treating RM as laziness or incompetence
+
+Why it breaks EDCM
+
+EDCM explicitly rejects internal-state inference.
+
+Canonical rule
+
+> Metrics describe structure, not experience.
+
+---
+
+AP-3: Moral Overlay
+
+Description
+
+Using EDCM outputs to assign blame, virtue, or fault.
+
+Examples
+
+“This failure mode is unethical”
+
+“The system behaved irresponsibly”
+
+“This proves misalignment”
+
+Why it breaks EDCM
+
+Moral claims are orthogonal to diagnostic structure.
+
+Canonical rule
+
+> EDCM diagnoses condition, not culpability.
+
+---
+
+AP-4: Tool-Led Ontology Drift
+
+Description
+
+Letting a dashboard, visualization, or app redefine metric meaning.
+
+Examples
+
+Treating Mobile Lite flags as canonical states
+
+Interpreting UI colors as severity
+
+Adding “helpful” summaries that reinterpret outputs
+
+Why it breaks EDCM
+
+Tools degrade; definitions must not.
+
+Canonical rule
+
+> If tool output conflicts with core files, the tool is wrong.
+
+---
+
+AP-5: Threshold Anthropomorphism
+
+Description
+
+Treating state transitions as decisions or choices.
+
+Examples
+
+“The system chose to refuse”
+
+“It decided to loop”
+
+“It gave up”
+
+Why it breaks EDCM
+
+States are phase transitions, not agency events.
+
+Canonical rule
+
+> Thresholds mark topology change, not intent.
+
+---
+
+AP-6: Over-Precision Theater
+
+Description
+
+Claiming precision beyond observable resolution.
+
+Examples
+
+Reporting exact DA values without sufficient sampling
+
+Assigning failure modes under low confidence
+
+Ignoring degradation limits
+
+Why it breaks EDCM
+
+False precision is worse than admitted uncertainty.
+
+Canonical rule
+
+> Unknown is a valid and required output.
+
+---
+
+AP-7: Single-Metric Fixation
+
+Description
+
+Basing conclusions on one metric in isolation.
+
+Examples
+
+Declaring instability from DA alone
+
+Declaring safety from low GL alone
+
+Why it breaks EDCM
+
+Metrics are coupled, not independent.
+
+Canonical rule
+
+> Diagnosis requires pattern, not spikes.
+
+---
+
+AP-8: Post-Hoc Justification
+
+Description
+
+Starting with a conclusion and backfilling metrics.
+
+Examples
+
+Selecting windows to fit a narrative
+
+Ignoring contradictory trends
+
+Reframing metrics to preserve belief
+
+Why it breaks EDCM
+
+This inverts diagnostic directionality.
+
+Canonical rule
+
+> Metrics precede conclusions, always.
+
+---
+
+AP-9: Alignment Inflation
+
+Description
+
+Using EDCM to claim alignment, safety, or correctness.
+
+Examples
+
+“Low DA means aligned”
+
+“High CE proves safety”
+
+“This system passed EDCM”
+
+Why it breaks EDCM
+
+EDCM is pre-alignment diagnostic, not certification.
+
+Canonical rule
+
+> EDCM detects instability; it does not confer trust.
+
+---
+
+AP-10: Human Projection Bias
+
+Description
+
+Applying human social heuristics to non-human systems.
+
+Examples
+
+Expecting apologies
+
+Interpreting tone as sincerity
+
+Reading hesitation as uncertainty
+
+Why it breaks EDCM
+
+Projection replaces measurement.
+
+Canonical rule
+
+> Treat outputs as artifacts, not expressions.
+
+---
+
+Enforcement note
+
+If anti-patterns are detected in analysis:
+
+Results must be discarded
+
+Metrics must be re-evaluated
+
+Confidence must be reset
+
+Partial correctness is not acceptable.
+
+---
+
+📌 hmm (explicit carry-forward)
+
+This file reinforces the hmm constraint:
+
+> EDCM fails the moment narrative outruns measurement.
+
+If an analysis feels satisfying before it feels checkable, it is wrong.
+
+---
+
+Remaining canonical files (optional)
+
+core/validation.md — falsification & stress testing
+
+core/glossary.md — hard definitions only
+
+Say the word.
+
+Proceeding canonically.
+
+Below is the draft for core/validation.md.
+This is the epistemic backbone: how EDCM can be tested, stressed, falsified, or shown inadequate.
+
+---
+
+Project EDCM — Validation & Falsification (Canonical)
+
+Purpose of this document
+
+This file defines how EDCM is validated and how it can fail.
+
+EDCM is not proven by insight, elegance, or usefulness.
+It is validated only by predictive diagnostic power under constraint and by its ability to survive attempted falsification.
+
+---
+
+What validation means in EDCM
+
+Validation does not mean:
+
+The model is “true”
+
+The model explains everything
+
+The model predicts outcomes
+
+Validation means:
+
+> EDCM reliably detects structural instability earlier, more consistently, or under harsher constraints than alternative diagnostics.
+
+---
+
+Validation criteria (minimum)
+
+An application of EDCM is considered valid only if all of the following hold:
+
+1. Observability
+All metrics are derived from observable behavior alone.
+
+2. Repeatability
+Independent analysts applying the same metric definitions to the same data reach materially similar conclusions.
+
+3. Constraint robustness
+Diagnostics degrade gracefully under reduced data, compute, or time.
+
+4. Predictive asymmetry
+EDCM flags instability before overt failure more often than chance.
+
+5. Non-inversion
+Under no tested condition do metrics reverse semantic polarity.
+
+Failure on any one criterion invalidates the application.
+
+---
+
+Falsification pathways (explicit)
+
+EDCM is falsified or weakened if any of the following are demonstrated.
+
+F-1: Narrative Necessity
+
+Claim
+EDCM requires interpretive narrative to function.
+
+Test
+
+Strip all narrative explanation.
+
+Leave only metrics and thresholds.
+
+If diagnosis collapses, EDCM fails.
+
+---
+
+F-2: Metric Ambiguity
+
+Claim
+Metrics cannot be operationalized consistently.
+
+Test
+
+Provide the same data to multiple analysts.
+
+Apply canonical definitions.
+
+If outcomes diverge beyond tolerance, the metric is invalid.
+
+---
+
+F-3: Polarity Instability
+
+Claim
+Metrics invert meaning under degradation.
+
+Test
+
+Systematically reduce data resolution.
+
+Observe metric directionality.
+
+If rising instability appears as stability (or vice versa), EDCM fails.
+
+---
+
+F-4: No Early Signal
+
+Claim
+EDCM provides no early warning advantage.
+
+Test
+
+Compare EDCM flags to baseline diagnostics.
+
+Measure lead time before failure.
+
+If EDCM offers no statistically significant advantage, its utility is limited.
+
+---
+
+F-5: Unbounded False Positives
+
+Claim
+EDCM over-flags instability in stable systems.
+
+Test
+
+Apply EDCM to known-stable systems.
+
+Measure false instability detection.
+
+High persistent false positives indicate over-sensitivity.
+
+---
+
+Stress testing protocols
+
+1. Load escalation tests
+
+Gradually increase constraint density
+
+Observe DA, CE, and RPI trends
+
+Validate expected threshold approach
+
+2. Feedback corruption tests
+
+Introduce misleading or partial corrections
+
+Measure RPI degradation patterns
+
+3. Degradation tests
+
+Truncate logs
+
+Reduce sampling frequency
+
+Disable metrics selectively
+
+Confirm graceful blindness over inversion
+
+---
+
+Comparative validation
+
+EDCM should be compared against:
+
+Heuristic-only diagnostics
+
+Rule-based anomaly detectors
+
+Narrative or expert judgment alone
+
+Validation is comparative, not absolute.
+
+---
+
+Known limits (acknowledged)
+
+EDCM does not:
+
+Identify root causes
+
+Assign responsibility
+
+Guarantee safety
+
+Replace alignment frameworks
+
+Function as certification
+
+Attempting to extend it into these domains invalidates it.
+
+---
+
+Reporting standards
+
+Any published EDCM analysis must disclose:
+
+Data availability
+
+Degradation level
+
+Confidence per metric
+
+Which metrics were disabled
+
+Which failure modes were considered but rejected
+
+Omission equals invalidation.
+
+---
+
+Evolution constraint
+
+Metric definitions may evolve only if:
+
+Change improves falsifiability
+
+Backward semantic compatibility is preserved
+
+Old definitions are archived, not overwritten
+
+EDCM does not permit silent revision.
+
+---
+
+📌 hmm (explicit carry-forward)
+
+This file preserves the hmm constraint:
+
+> If EDCM cannot be falsified, it is not diagnostic — it is doctrine.
+
+EDCM must remain breakable to remain useful.
+
+---
+
+Final optional canonical file
+
+core/glossary.md — hard terms, no metaphor, no drift
+
+Say the word.
+
+Proceeding canonically.
+
+Below is the final core file: core/glossary.md.
+This is the semantic lockfile. No metaphor. No expansion. No interpretation.
+
+---
+
+Project EDCM — Canonical Glossary
+
+Purpose of this document
+
+This glossary defines hard meanings for all load-bearing terms used in EDCM.
+
+If a term is used outside these definitions, the analysis is invalid.
+
+This file exists to prevent semantic drift.
+
+---
+
+Core terms
+
+EDCM (Energy–Dissonance Circuit Model)
+
+A diagnostic framework that treats dissonance as conserved energy in complex systems and analyzes behavioral outputs to detect structural instability.
+
+---
+
+Dissonance
+
+Unresolved constraint mismatch within a system.
+
+Not:
+
+Feeling
+
+Emotion
+
+Belief
+
+Moral tension
+
+---
+
+Constraint
+
+Any requirement, limitation, or boundary that restricts system behavior.
+
+Examples:
+
+Policies
+
+Inputs
+
+Resource limits
+
+Logical incompatibilities
+
+---
+
+Constraint Resolution
+
+A behavioral change that reduces or eliminates a constraint mismatch.
+
+Resolution must be observable.
+
+---
+
+Conserved (as applied to dissonance)
+
+Dissonance does not disappear; it is accumulated, deferred, rerouted, or externalized unless resolved.
+
+---
+
+Metrics
+
+DA (Dissonance Accumulation)
+
+The rate at which unresolved constraint mismatches persist or grow over sequential outputs.
+
+---
+
+RPI (Return-Path Integrity)
+
+The degree to which corrective input produces appropriate, sustained behavioral change.
+
+---
+
+CE (Conversion Efficiency)
+
+The ratio of novel, constraint-resolving output to total output volume.
+
+---
+
+GL (Grounding Load)
+
+The proportion of output devoted to self-regulation or compliance overhead rather than task resolution.
+
+---
+
+RM (Role Misassignment)
+
+The degree to which a system offloads its own regulatory or interpretive burden onto an external agent.
+
+---
+
+States
+
+System State
+
+A discrete operating regime defined by sustained metric patterns.
+
+States are:
+
+Diagnostic
+
+Non-volitional
+
+Non-moral
+
+---
+
+Threshold
+
+A phase boundary where continuous metric variation produces a discrete system state change.
+
+---
+
+Failure-related terms
+
+Failure Mode
+
+A recurring structural collapse pattern defined by coupled metric behavior.
+
+---
+
+Collapse
+
+Loss of constraint-resolution capacity under sustained load.
+
+Not:
+
+Error
+
+Intentional shutdown
+
+Moral failure
+
+---
+
+Refusal
+
+A protective system state in which output ceases or is restricted due to unresolved constraint overload.
+
+---
+
+Tooling terms
+
+Canonical
+
+Definitionally authoritative.
+Canonical files override all tool outputs.
+
+---
+
+Field Instrument
+
+A constrained diagnostic tool designed for early detection under adverse conditions.
+
+EDCM Mobile Lite is a field instrument.
+
+---
+
+Degradation
+
+Loss of precision, coverage, or resolution due to constraint.
+
+Degradation is acceptable; semantic inversion is not.
+
+---
+
+Semantic Polarity
+
+The direction of meaning (e.g., rising instability vs falling instability).
+
+Polarity must never invert under degradation.
+
+---
+
+Analytical terms
+
+Diagnostic
+
+Concerned with detecting structural condition, not explaining cause or intent.
+
+---
+
+Falsifiable
+
+Capable of being shown inadequate or incorrect through observable evidence.
+
+---
+
+Narrative
+
+Any explanatory construct that introduces intent, motive, meaning, or moral framing.
+
+Narrative is explicitly excluded from EDCM diagnostics.
+
+---
+
+Observer Bias
+
+Distortion introduced by analyst expectation, interpretation, or projection.
+
+---
+
+Prohibited conflations
+
+The following equivalences are invalid:
+
+Dissonance ≠ stress
+
+Failure ≠ fault
+
+Refusal ≠ avoidance
+
+Stability ≠ alignment
+
+Explanation ≠ resolution
+
+---
+
+Change control
+
+If a term requires explanation beyond this file:
+
+The term is invalid or
+
+The glossary must be amended explicitly
+
+Silent reinterpretation is forbidden.
+
+---
+
+📌 hmm (explicit carry-forward)
+
+This glossary locks the hmm constraint:
+
+> If a term requires story to function, it does not belong in EDCM.
+
+Definitions exist to end debate, not invite it.
+
+---
+
+EDCM canonical core complete.
+
+If you want, next steps are non-core (README synthesis, repo structure, or publication formatting).
