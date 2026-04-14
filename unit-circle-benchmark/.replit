@@ -1,0 +1,17 @@
+run = "python -m src.main"
+entrypoint = "src/main.py"
+
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "python -m src.main"]
+deploymentTarget = "cloudrun"
+
+[env]
+# Switch to bge-m3 for Phase 2:  MODEL_PRESET=bge-m3
+MODEL_PRESET = "nomic"
+
+[[ports]]
+localPort = 8080
+externalPort = 80

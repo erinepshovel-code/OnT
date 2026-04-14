@@ -1,0 +1,20 @@
+{"id":"d1","text":"The mitochondria are the powerhouse of the cell, responsible for generating most of the cell's supply of ATP through oxidative phosphorylation.","label":"biology"}
+{"id":"d2","text":"Photosynthesis is the process by which green plants and algae convert sunlight, water, and carbon dioxide into glucose and oxygen.","label":"biology"}
+{"id":"d3","text":"DNA replication occurs during the S phase of the cell cycle and involves unwinding the double helix and synthesising a complementary strand.","label":"biology"}
+{"id":"d4","text":"The Krebs cycle, also known as the citric acid cycle, is a series of chemical reactions used to generate energy through the oxidation of acetyl-CoA.","label":"biology"}
+{"id":"d5","text":"Neurons transmit signals through a combination of electrical impulses and chemical neurotransmitters released across synaptic gaps.","label":"biology"}
+{"id":"d6","text":"Quantum entanglement is a phenomenon where two particles remain connected such that the state of one instantly influences the other regardless of distance.","label":"physics"}
+{"id":"d7","text":"The Higgs boson, discovered at CERN in 2012, is a fundamental particle that gives other particles mass through interaction with the Higgs field.","label":"physics"}
+{"id":"d8","text":"General relativity describes gravity as the curvature of spacetime caused by mass and energy, generalising Newton's law of universal gravitation.","label":"physics"}
+{"id":"d9","text":"Thermodynamics describes the relationships between heat, work, temperature, and energy, underpinned by the four laws of thermodynamics.","label":"physics"}
+{"id":"d10","text":"Wave-particle duality states that every quantum entity exhibits both wave and particle properties depending on how it is observed or measured.","label":"physics"}
+{"id":"d11","text":"Gradient descent is an optimisation algorithm that iteratively adjusts model parameters in the direction that minimises a loss function.","label":"ml"}
+{"id":"d12","text":"Transformer architectures use self-attention mechanisms to model relationships between all tokens in a sequence simultaneously.","label":"ml"}
+{"id":"d13","text":"Overfitting occurs when a model learns the training data too well, including noise, leading to poor generalisation on unseen examples.","label":"ml"}
+{"id":"d14","text":"Convolutional neural networks apply learnable filters across input data, making them effective for image recognition and spatial feature extraction.","label":"ml"}
+{"id":"d15","text":"Reinforcement learning trains agents to maximise cumulative reward by taking actions in an environment and learning from feedback signals.","label":"ml"}
+{"id":"d16","text":"The Roman Empire at its height controlled territories stretching from Britain in the northwest to Mesopotamia in the east.","label":"history"}
+{"id":"d17","text":"The Industrial Revolution, beginning in Britain in the late 18th century, transformed manufacturing through mechanisation and the use of steam power.","label":"history"}
+{"id":"d18","text":"The French Revolution of 1789 led to the abolition of the monarchy, the rise of Napoleon, and the spread of republican ideals across Europe.","label":"history"}
+{"id":"d19","text":"The Silk Road was an ancient network of trade routes connecting China and East Asia with Central Asia, the Middle East, and Europe.","label":"history"}
+{"id":"d20","text":"The Renaissance was a cultural and intellectual movement in Europe from the 14th to 17th centuries, reviving interest in classical Greek and Roman thought.","label":"history"}

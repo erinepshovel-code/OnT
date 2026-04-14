@@ -1,0 +1,12 @@
+numpy
+pandas
+scikit-learn
+scipy
+sentence-transformers
+transformers
+torch
+tqdm
+orjson
+matplotlib
+# Optional — uncomment for OpenAI ceiling-check (Phase 3)
+# openai
